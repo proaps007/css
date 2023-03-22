@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+a{
+    text-decoration: none;
+    color:unset;
+}
+
+.header-top{
+    background-color: #000;
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left ul,
+.menu ul,
+.header-right-menu ul{
+    list-style: none;
+    display: flex;
+    margin:auto
+}
+
+.header-left li,
+.header-right-menu li{
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+    padding:10px 15px;
+}
+
+.header-right{
+    margin: 0 10px;
+    padding:10px 15px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.header-right-menu{
+    background-color: #fff;
+    width:140px;
+    padding:14px 10px;
+    position: absolute;
+    right: 5px;
+    top: 56px;
+    z-index: 10;
+    color: #000;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 2px 2px 20px rgb(0 0 0 / 10%);
+    border: 1px solid rgb(0 0 0 / 10%);
+    display: none;
+}
+
+.header-right-menu.active{
+    display:block
+}
+
+.header-right-menu ul{
+    flex-direction: column;
+}
+
+.header-right-menu li{
+    margin-right: 0;
+    font-size: 14px;
+    text-transform: none;
+}
+.header-right img{
+    width: 35px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.header-right span{
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.header-bottom{
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    padding:35px 15px;
+}
+
+.header-bottom span{
+    color:blueviolet
+}
+
+.dashboard-wrapper{
+    background-color: #f5f5f5;
+    padding:25px;
+}
+
+.body-card{
+    background-color: #fff;
+    padding:15px;
+    margin:10px 0;
+}
+
+.card-text{
+    font-size: 32px;
+    margin:0 15px;
+    padding:15px;
+    text-align: center;
+    box-shadow: 0 0rem 0.5rem rgb(0 0 0 / 10%) !important;
+    border-radius: 8px;
+}
+
+
+.card-text span{
+    font-size: 16px;
+    display: block;
+    padding:10px 0;
+}
+.menu{
+    display: block;
+    background-color: #e8f0fb;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 8px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.menu a{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: bold;
+    padding:12px 15px;
+}
+
+.menu ul{
+    padding:10px 0;
+    padding-left:35px;
+    background-color: #fff;
+    flex-direction: column;
+}
+
+
+.menu li{
+    width: calc(100% - 35px);
+    margin-bottom: 5px;
+    line-height: 25px;
+    padding:12px 15px;
+}
+
+.menu i{
+    width:8px;
+    height:8px;
+}
+
+.nav-links{
+    display: inline !important;
+    padding: 0 !important;
+}
+
+
+.menu li.active{
+    background-color: #e8f0fb;
+    border-radius: 8px;
+}
+
+.menu i{
+    margin-right: 15px;
+}
+
+footer{
+    background-color: #000;
+    padding:35px 15px;
+    color:#fff;
+    text-align: center;
+    line-height: 35px;
+    font-size: 16px;
+}
+
+.profile-box{
+    text-align: center;
+    line-height: 35px;
+    border-radius: 8px;
+}
+.profile-img{
+    width:60px;
+    height:60px;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 50%;
+    padding:10px;
+}
+
+.profile-box span{
+    font-weight: bold;
+}
+
+.profile-box h2{
+    line-height: 12px;
+    margin-bottom: 24px;
+}
+
+.profile-box p{
+text-align: start;
+font-size: 14px;
+}
+
+.profile-box button,
+.edit-profile input[type="submit"]{
+    width:100%;
+    margin:25px 0;
+    background-color: rgb(0, 34, 255);
+    padding:10px;
+    color:#fff;
+    border:none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.profile-box button:hover{
+    background-color: rgb(2, 25, 174);
+}
+
+.edit-profile{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.edit-profile form{
+    width: 100%;
+}
+
+@media(min-width:768px){
+    .edit-profile form{
+        width:50%;
+    }
+}
+.edit-profile input{
+    padding:14px 0px;
+    display: block;
+    margin-bottom: 10px;
+    border:1px solid rgb(74, 74, 74);
+    width: 100%;
+    border-radius: 8px;
+    text-align: center;
+    
+}
+
+.alert{
+    border-radius: 8px;
+    padding:6px;
+    font-size: 14px;
+}
+
+.alert-danger{
+    background-color: rgb(220, 4, 4);
+    color:#fff;
+}
+
+
