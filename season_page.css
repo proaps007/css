@@ -198,3 +198,12 @@ padding-top: 7px;
 	background-color: var(--grey-selected);
 	cursor: pointer;
 }
+	 .description {
+    max-height: 100px; /* set the maximum height for the element */
+    overflow: hidden; /* hide any overflow */
+  }
+  .read-more {
+    display: inline-block; /* display the link as a block element */
+    color: #fff; /* set the link color */
+    cursor: pointer; /* change the cursor to a pointer when hovering over the link */
+  }
