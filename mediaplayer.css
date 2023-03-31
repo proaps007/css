@@ -1,0 +1,137 @@
+
+body, html {
+  height: 100%;
+  margin: 0;
+
+  /* The image used */
+  background-image: url("https://bit.ly/2KdXVz1");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-grad {
+            background-image: linear-gradient(to right, #1A2980 0%, #26D0CE 51%, #1A2980 100%)
+        }
+
+        .btn-grad:hover {
+            background-position: right center;
+        }
+        .gradient-button {
+            margin: 8px;
+            font-family:'Julius Sans One', sans-serif;
+            font-size: 18px;
+            font-style: bold;
+            padding: 15px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: #FFF;
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            width: 90%;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+            transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+            cursor: pointer;
+            display: inline-block;
+            border-radius: 5px;
+            text-decoration:none;
+            border: 1px solid #fff;
+
+        }
+        p {
+           text-align: center;
+           text-transform: uppercase;
+           color:hsla(0,100%,50%,1);
+           font-family:'Julius Sans One', sans-serif;
+           font-size: 18px;
+           }
+        .gradient-button:hover{
+            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+            margin: 8px 10px 12px;
+        }
+
+        .gradient-button-0 {background-image: linear-gradient(to right, #2ecc72 0%, #2ecc72 51%, #2ecc72 100%)}
+        .gradient-button-0:hover { background-position: right center; }
+.audioplayer {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    margin: 1em 0;
+    padding: 5px;
+    width: 95%;
+    height: 100px;
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    background: linear-gradient(to right, #a51234 0%, #0ce244 51%, #1261a5 100%);
+}
+.rainbow {
+  
+   /* Font options */
+  font-family:'Julius Sans One', sans-serif;
+  text-shadow: 2px 2px 4px #000000;
+  font-size:;
+  text-transform: uppercase;
+  
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 5s infinite; 
+  
+  /* Internet Explorer */
+  -ms-animation: rainbow 5s infinite;
+  
+  /* Standar Syntax */
+  animation: rainbow 5s infinite; 
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+  0%{color: orange;}  
+  10%{color: purple;} 
+  20%{color: red;}
+  30%{color: CadetBlue;}
+  40%{color: yellow;}
+  50%{color: coral;}
+  60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+  100%{color: orange;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+   0%{color: orange;} 
+  10%{color: purple;} 
+  20%{color: red;}
+  30%{color: CadetBlue;}
+  40%{color: yellow;}
+  50%{color: coral;}
+  60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+  100%{color: orange;}
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+    0%{color: orange;}  
+  10%{color: purple;} 
+  20%{color: red;}
+  30%{color: CadetBlue;}
+  40%{color: yellow;}
+  50%{color: coral;}
+  60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+  100%{color: orange;}
+}
+

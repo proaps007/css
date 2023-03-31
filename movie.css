@@ -1,0 +1,125 @@
+
+        h1
+  {
+    background-color:#000;
+    margin:0;
+    text-align:center;
+    padding:5px
+  }
+a
+  {
+    color:#fff;
+    text-decoration:none
+  }
+#headerCount
+  {
+    margin-bottom:15px;
+    font-size:large
+  }
+#livebbtvPlayer 
+  {
+    margin:0 auto!important;
+    box-shadow:0 5px 5px #000
+  }
+tr th
+  {
+    font-livebbtv-name:bold;
+    background-color:green;
+    padding:2px
+  }
+*
+  {
+    box-sizing:border-box
+  }
+body
+  {
+    font-family:sans-serif;
+    color:#fff;
+    background:#333;
+    margin:0
+  }
+
+body
+ {
+  -webkit-animation:.5s ease 0s normal forwards 1 fadein;
+  animation:.5s ease 0s normal forwards 1 fadein
+}
+@keyframes fadein
+{0%{opacity:0}
+66%{opacity:0}
+100%{opacity:1}
+    
+}
+@-webkit-keyframes fadein{0%{opacity:0}
+66%{opacity:0}
+100%{opacity:1}
+    
+}
+.livebbtv-item
+{
+  position:relative;
+  float:left;
+  width:120px;
+  height:190px;margin:5px;
+  padding:10px;
+  background:#777;
+  box-shadow:2px 2px 5px #000;
+  overflow:hidden;
+  border-radius:2px;
+  filter:contrast(100%)
+}
+.livebbtv-item>*{margin:0;padding:0}
+.livebbtv-item .livebbtv-thumb{bottom::10px;left:0;position:absolute;right:0}
+.livebbtv-item .livebbtv-thumb img{width:100%;pointer-events:none}
+.livebbtv-item .livebbtv-number{display:none;position:absolute;right:6px;top:4px;color:#000;font-size:13px}
+.livebbtv-item .livebbtv-name
+{
+  position:absolute;
+  left:0;
+  bottom:0;
+  font-size: 10px;
+  display:block;
+  text-align:center;
+  width:100%;
+  background:#777;
+  color:#fff;
+  padding: 9px;
+  text-transform:uppercase
+}
+.livebbtv-item:hover .livebbtv-name{box-shadow:0 0 5px #fff inset;background:#e62117}
+.livebbtv-item:hover{cursor:pointer;filter:contrast(125%)}
+.filterinput,.ddlFilterTableRow
+{
+  width:100%;
+  margin:.16%;
+  float:left;
+  height:30px;
+  font-size:medium;
+  background:#eee;border:1px;
+  outline:none;
+  text-align:center;
+  border-radius:2px;
+  font-family:poppins,sans-serif
+}
+.filterinput:hover,.ddlFilterTableRow:hover{background:#fff}
+@media only screen and (max-width:1024px){.livebbtv-item{width:calc(100%/8 - 10px)}
+    
+}
+@media only screen and (max-width:890px){.livebbtv-item{width:calc(100%/7 - 10px)}
+    
+}
+@media only screen and (max-width:768px){.livebbtv-item{width:calc(100%/6 - 10px)}
+    
+}
+@media only screen and (max-width:650px){.livebbtv-item{width:calc(100%/5 - 10px)}
+    
+}
+@media only screen and (max-width:550px){.livebbtv-item{width:calc(100%/4 - 10px)}
+    
+}
+@media only screen and (max-width:425px){.livebbtv-item{width:calc(100%/3 - 10px)}
+    
+}
+@media only screen and (max-width:300px){.livebbtv-item{width:calc(100%/2 - 10px)}
+    
+}

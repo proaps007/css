@@ -1,0 +1,133 @@
+   
+  .border 
+  { 
+      border-width: 1px;
+      border-color: black;
+      border-style: solid; 
+      
+  }
+body,
+div,
+html,
+i,
+img,
+li,
+span,
+strong,
+ul {
+    padding: 0;
+    margin: 0
+}
+
+body,
+html {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    color: #222;
+    background-color: #2C3335;
+    
+}
+
+
+a {
+    text-decoration: none;
+    color: #003c9d;
+}
+.content {
+    width: 100%;
+    height: 135px;
+    margin: 10px 0px auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.content>a {
+    display: block;
+    color: #fff;
+}
+
+.thumb-holder {
+    margin: 0 auto;
+}
+
+.thumb-holder>img {
+    height: 70px;
+    width: 70px;
+    padding: 3px;
+    border-radius: 4px;
+    background-color: #fff;
+}
+@font-face {
+    font-family: 'versaversa';
+    src: url('versa-versa.woff2') format('woff2'),
+         url('versa-versa.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.title {
+    font-family: Versa Versa;
+    display: block;
+    text-align: center;
+    max-width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    text-transform: uppercase;
+    margin-top: 2px;
+    background-color: #fff;
+    color: #222;
+    padding: 2-5px;
+    border-radius: 2px;
+    font-size: 14px;
+}
+.ad_code {
+    width: 100%;
+    margin: 0 auto
+}
+
+footer {
+    background-color: #222;
+    color: hsl(344, 33%, 98%)
+    padding: 10px;
+    text-align: center;
+    display: block;
+    clear: both;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+i {
+      font-style: normal;
+      color: #F50057;
+      font-size: 14px;
+      position: relative;
+      top: 2px;
+    }
+.thumb-txt{
+    width: 70px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #1f3a5f;
+    color: #fff;
+    font-size: 50px;
+    line-height: 70px;
+    border-radius: 4px;
+}
+header 
+            {
+            background-color: #222;
+            color: rgb(128, 128, 128);
+            padding: 10px;
+            text-align: center;
+            display: block;
+            clear: both;
+            }
+
+header a   {
+           color: #fff;
+           text-decoration: none;
+            }

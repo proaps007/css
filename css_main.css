@@ -1,0 +1,97 @@
+
+  
+      body
+      {
+          background-color:rgb(  189, 184, 183  );
+          margin-top: 20px;
+          font: 0.9em Tahoma,Verdana,sans-serif,Times New Roman;
+          
+
+         }
+  .title 
+           {
+            text-align: left;
+            padding-left: 0px;
+            color: red;
+            font-size: 15px;
+           }
+  .container
+        {
+            width: 98%;
+            margin-top: 20px;
+            background: none repeat scroll 0 0 rgb(  232, 225, 223  );
+            border: 2px solid #D3D3D3;
+            box-shadow: 2px 2px 2px 1px rgba( 232, 228, 227 );
+            color: #373737;
+            border-radius: 10px;
+            border-color: rgb( 210, 202, 201 );
+            font-size: 13px;
+            font-weight: normal;
+            padding-left: 0px;
+            padding-right: 2px;
+
+        }  
+
+        .fileName{font-weight:700}
+        .fileName span{color:#555;text-decoration:none}
+        .fileName img{padding-right:3px} 
+
+        .img
+        {
+          width:80px;
+          height:80px;
+          -webkit-border-radius:10px;
+          -moz-border-radius:10px;
+          border-radius:5px;
+          padding-top: 3px
+
+        }
+      
+    .container:hover
+       {
+        background:rgb(230, 239, 239);
+        background:-moz-linear-gradient(top,#EDEDED 0,#DADADA 100%);
+        background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,rgb(230, 239, 239)),color-stop(100%,#DADADA));
+        background:-webkit-linear-gradient(top,#EDEDED 0,#DADADA 100%)
+       }
+ .container:focus
+       {
+        background:rgb( 230, 239, 239 );
+        background:-moz-linear-gradient(top,#fbb757 0,#ea8615 100%);
+        background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#fbb757),color-stop(100%,#ea8615));
+        background:-webkit-linear-gradient(top,#fbb757 0,#ea8615 100%)
+       }
+ .container span
+      {
+        color:#000;
+        font-weight:400
+      }
+ .container a:hover
+       {
+        text-decoration: none;
+        color: rgb(  230, 239, 239  );
+        background-color: #e6efef ;
+       }
+ .container a
+       {
+        display:block;
+        padding: 10px;
+        background:url( ) right center no-repeat;
+        text-decoration: none;
+        background-size: 50px 50px;
+       }
+ .container a img
+             {
+              margin-right:4px;
+              margin-left: 4px;
+              border:none;
+              border-radius:10px
+             }
+ .container a div div
+       {
+        vertical-align:middle;
+        display:table-cell;
+        border-radius: 10px;
+        border-color: brown;
+       }  
+

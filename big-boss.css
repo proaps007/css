@@ -34,31 +34,7 @@
       margin: 0;
     }
     
-    .icon-bar {
-      width: 100%;
-      background-color: #e62117;
-      overflow: auto;
-      box-shadow: 0 0 25px #000 inset;
-    }
     
-    .icon-bar a {
-      text-decoration: none;
-      float: left;
-      width: 15%;
-      text-align: center;
-      padding: 8px 0;
-      transition: all 0.3s ease;
-      color: white;
-      font-size: x-large;
-      height: 40px;
-      box-shadow: 0 0 15px #000;
-      border-radius: 20px;
-    }
-    
-    .icon-bar a:hover,
-    .active {
-      background-color: rgba(255, 255, 255, 0.3);
-    }
     
     .made-with-love {
       margin-top: 20px;
@@ -77,24 +53,7 @@
       position: relative;
       top: 2px;
     }
-     .telegram_join {
-      margin-top: 1px;
-      padding: 1px;
-      clear: left;
-      text-align: center;
-      font-size: small;
-      font-family: arial;
-      color: #2186B2;
-    }
-    
-  .telegram_join a {
-      font-style: normal;
-      color: #16B7F2;
-      font-size: 14px;
-    font-weight: bold;
-      position: relative;
-      top: 2px;
-    }
+     
     ::-webkit-scrollbar {
       width: 6px;
     }
@@ -140,7 +99,7 @@
       position: relative;
       float: left;
       width: 120px;
-      height: 150px;
+      height: 120px;
       margin: 5px;
       padding: 10px;
       background: #DAE0E2;
@@ -156,7 +115,7 @@
     }
     
     .livebbtv-item .livebbtv-thumb {
-      top: 10px;
+      bottom: : 10px;
       left: 0;
       position: absolute;
       right: 0;
@@ -169,7 +128,7 @@
     }
     
     .livebbtv-item .livebbtv-number {
-    display: none;
+      display: none;
       position: absolute;
       right: 6px;
       top: 4px;
@@ -203,7 +162,7 @@
     
     .filterinput,
     .ddlFilterTableRow {
-      width: 33%;
+      width: 98%;
       margin: 0.16%;
       float: left;
       height: 30px;
@@ -263,61 +222,7 @@
       }
     }
     
-    #Assamese {
-      background: #673ab7 !important;
-    }
     
-    #Bengali {
-      background: #ff5722 !important;
-    }
-    
-    #Bhojpuri {
-      background: #8bc34a !important;
-    }
-    
-    #Gujarati {
-      background: #f44336 !important;
-    }
-    
-    #English {
-      background: #ffc107 !important;
-    }
-    
-    #Hindi {
-      background: #e91e63 !important;
-    }
-    
-    #Kannada {
-      background: #3f51b5 !important;
-    }
-    
-    #Malayalam {
-      background: #2196f3 !important;
-    }
-    
-    #Marathi {
-      background: #607d8b !important;
-    }
-    
-    #Odia {
-      background: #9e9e9e !important;
-    }
-    
-    #Punjabi {
-      background: #795548 !important;
-    }
-    
-    #Tamil {
-      background: #4caf50 !important;
-    }
-    
-    #Telugu {
-      background: #9c27b0 !important;
-    }
-    
-    #Urdu {
-      background: #009688 !important;
-    }
     
     .livebbtv-item .livebbtv-name.colored-name {
       top: 100px;
