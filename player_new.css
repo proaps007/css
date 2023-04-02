@@ -85,6 +85,25 @@
     color: red !important;
     font-size: 0 !important
 }
+.genre {
+    display: inline-block;
+    border: 1px solid #ccc;
+    color: #03ad9f;
+    font-size: 15px;
+    padding: 5px 6px;
+    border-radius: 31px;
+    margin-left: 5px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    margin-top: 8px;
+}
+.genre-wrap {
+    width: 90%;
+    margin-top: 0;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    overflow: hidden
+}
 
 
 
