@@ -69,10 +69,11 @@ header,nav {
 	display: inline-block;
 	vertical-align: middle;
 	text-decoration: none;
-}/*! Flickity v1.1.1
+}
+/*! Flickity v1.1.1
 https://flickity.metafizzy.co
 ---------------------------------------------- */.flickity-enabled {
-	position: relative;
+	position: absolute;
 }
 
 .flickity-enabled:focus {
@@ -80,15 +81,12 @@ https://flickity.metafizzy.co
 }
 
 .flickity-viewport {
-	position: relative;
-	height: 100%;
+	position: absolute;
+	height: 100%;
 }
 
-.flickity-slider {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-}
+
+
 
 .flickity-enabled.is-draggable {
 	-webkit-tap-highlight-color: transparent;
